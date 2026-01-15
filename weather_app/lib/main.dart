@@ -31,7 +31,7 @@ class WeatherHomeScreen extends StatefulWidget {
 }
 
 class _WeatherHomeScreenState extends State<WeatherHomeScreen> {
-  final String _apiKey = 'df59effdd73f5f4af3987fc9539abeec';
+  final String _apiKey';
   Weather? _weather;
   bool _isLoading = false;
   String _error = '';
